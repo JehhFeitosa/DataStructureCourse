@@ -2,6 +2,7 @@ package application;
 
 import vetores_e_matrizes.ExibeVetor;
 import vetores_e_matrizes.PesquisaVetor;
+import vetores_e_matrizes.TamanhoMatriz;
 
 public class Program {
 
@@ -12,6 +13,9 @@ public class Program {
 		
 		PesquisaVetor pesquisa = new PesquisaVetor();
 		pesquisa.inicio();
+		
+		TamanhoMatriz tamMatriz = new TamanhoMatriz();
+		tamMatriz.inicio();
 	}
 
 }
